@@ -26,17 +26,17 @@
       <div class="container">
         <div class="weather-app">
           <div class="overview">
-      <h1>New York</h1>
+      <h1 id="city"></h1>
       <ul>
         <li>Friday 05.00</li>
-        <li>Clear</li>
+        <li id="description"></li>
       </ul>
       </div>
       <div class="row">
          <div class="col-6">
           <div class="weather-temperature">
         <img src="https://ssl.gstatic.com/onebox/weather/64/sunny.png" alt="clear" class="float-left">
-      <strong>12 <span class="units">°C |  <a href="#">°F</a></span></strong>
+      <strong id="temperature"></strong><span class="units">°C |  <a href="#">°F</a></span>
 </div>
     </div> 
 
@@ -44,9 +44,9 @@
         
         <ul>
           <li>
-            Precipitation 0%
+            Humidity: <span id="humidity"></span>%
           </li>
-          <li>Humidity: 73% 
+          <li>Wind: <span id="windSpeed"></span>% 
           </li>
         </ul>
              </div> 
