@@ -1,5 +1,6 @@
 body {
-  font-family: arial, sans-serif;
+  font-family: Cerebri sans pro;
+  background-color: #ffeeee;
 }
 .weather-app-wrapper {
   max-width: 600px;
@@ -7,7 +8,9 @@ body {
 }
 .weather-app {
   padding: 20px;
-  border: 1px solid #dadde1;
+  border: 1px solid #fff6ea;
+  border-radius: 13px;
+  background: linear-gradient(#fff6ea, #fcc5c0);
 }
 .overview {
   margin-bottom: 20px;
@@ -37,11 +40,12 @@ body {
 }
 
 h1 {
-  color: #878787;
-  font-size: 24px;
+  color: #ce9461;
+  font-size: 38px;
   font-weight: 100px;
   line-height: 28px;
-  margin-bottom: 0;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 ul {
   margin: 0;
@@ -50,9 +54,11 @@ ul {
 li {
   list-style: none;
   color: rgb(135, 135, 135);
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 100;
-  line-height: 19px;
+  line-height: 22px;
+  color: #ce9461;
+  font-weight: 300;
 }
 li:first-letter {
   text-transform: capitalize;
